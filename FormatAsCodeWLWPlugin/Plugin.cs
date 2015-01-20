@@ -4,7 +4,7 @@ using WindowsLive.Writer.Api;
 namespace FormatAsCodeWLWPlugin
 {
     [WriterPlugin("EA4F0284-6C79-4D86-B556-A2029CB577D4", "Format as Code",PublisherUrl = "http://pazotto.com")]
-    [InsertableContentSource("Code")]
+    [InsertableContentSource("Format as Code")]
     public class Plugin : ContentSource
     {
         public override DialogResult CreateContent(IWin32Window dialogOwner, ref string content)
